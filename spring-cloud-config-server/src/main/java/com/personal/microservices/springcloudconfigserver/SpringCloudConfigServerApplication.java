@@ -2,7 +2,11 @@ package com.personal.microservices.springcloudconfigserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
+//@Configuration
+//@EnableAutoConfiguration
+@EnableConfigServer
 @SpringBootApplication
 public class SpringCloudConfigServerApplication {
 
